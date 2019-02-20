@@ -18,13 +18,12 @@ ActiveRecord
   - Convention, over Configuration
     - Model - Table mapping (Post - posts)
     - schema conventions
-      - Foreign keys (item_id)
+      - Foreign keys (post_id)
       - Primary keys (id)
-
 
 - Domain Modeling, Ruby, and Rails
     ```ruby
-      class Product < ApplicationRecord
+      class Post < ApplicationRecord
       end
     ```
   - `ApplicationRecord < ActiveRecord::Base`
@@ -38,7 +37,6 @@ ActiveRecord
       );
     ```
   - `self.primary_key = "product_id"`
-
 
 - Programming the Domain
   - Setting up associations
@@ -79,12 +77,14 @@ ActiveRecord
   Read
     - `Post.all`
     - `Post.first`
+    - `Post.find()`
+    - `Post.find_by_*()`
 
   Update
     - `post = Post.first; post.name = "Hello"; post.save`
 
   Delete
-    - post.destroy
+    - `post.destroy`
 
   Associations
     Methods created by belongs_to:
@@ -115,3 +115,11 @@ ActiveRecord
         select
 
   - `rails db:console`
+
+References
+----------
+  - https://guides.rubyonrails.org/active_record_basics.html
+  - https://guides.rubyonrails.org/association_basics.html
+  - https://guides.rubyonrails.org/active_record_callbacks.html
+  - https://guides.rubyonrails.org/generators.html
+  - https://guides.rubyonrails.org/command_line.html
