@@ -1,15 +1,25 @@
+require 'pry'
+
 class Person
   attr_accessor :first_name, :last_name
 
-  def self.create
-    p = new
-    p.first_name = "Mayank"
-    p
+  class << self
+    attr_accessor :count
+
+    def create
+      p = new
+      p.first_name = "Mayank"
+      p
+    end
   end
 
+  @count = 0
+
   def initialize
-    self.first_name = "Gaurav"
-    self.last_name = "Agarwal"
+    @first_name = "Gaurav"
+    @last_name = "Agarwal"
+
+    self.class.count += 1
   end
 
   def name
@@ -28,3 +38,5 @@ class Person
   #   @name = new_name
   # end
 end
+
+binding.pry
