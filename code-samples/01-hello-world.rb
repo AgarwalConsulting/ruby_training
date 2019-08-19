@@ -1,5 +1,16 @@
-puts "Using ruby version: " + RUBY_VERSION
+require 'logging'
 
-["Hello, World!", 42].each do |x|
-  puts "#{x} is of type #{x.class}"
+class Hello
+  def initialize
+    @logger = Logging.logger(STDOUT)
+    super
+  end
+
+  def hi
+    @logger.info "Using ruby version: " + RUBY_VERSION
+
+    ["Hello, World!", 42].each do |x|
+      @logger.warn "#{x} is of type #{x.class}"
+    end
+  end
 end
