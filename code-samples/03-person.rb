@@ -1,5 +1,3 @@
-require 'pry'
-
 class Person
   attr_accessor :first_name, :last_name
 
@@ -13,7 +11,7 @@ class Person
     end
   end
 
-  @count = 0
+  @count = 0 # Initializing a class instance variable
 
   def initialize
     @first_name = "Gaurav"
@@ -38,5 +36,3 @@ class Person
   #   @name = new_name
   # end
 end
-
-binding.pry
