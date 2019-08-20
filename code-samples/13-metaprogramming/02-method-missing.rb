@@ -20,6 +20,10 @@ class ArrayPresenter
   def respond_to?(m)
     value.respond_to?(m) || super
   end
+
+  # def respond_to_missing?(m, *args)
+  #   true
+  # end
 end
 
 presenter = ArrayPresenter.new([])
