@@ -1,5 +1,3 @@
-require 'pry'
-
 class Post
   attr_accessor :status, :name
 
@@ -41,5 +39,3 @@ class Post
     end
   end
 end
-
-binding.pry
