@@ -5,6 +5,7 @@ class Person
     attr_accessor :count
 
     def create
+      puts "Count of people: #{@count}"
       p = new
       p.first_name = "Mayank"
       p

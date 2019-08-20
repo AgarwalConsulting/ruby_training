@@ -5,7 +5,10 @@ source "https://rubygems.org"
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem "logging", "~> 2" # >= 2.0, <3
+gem 'require_all'
 
 group :development do
   gem 'pry'
+  gem 'get_process_mem'
+  gem 'memory_profiler'
 end

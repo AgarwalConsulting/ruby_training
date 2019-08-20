@@ -1,6 +1,5 @@
 class Array
   def to_s
-    puts s.value
     join(", ")
   end
 

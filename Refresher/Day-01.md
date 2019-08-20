@@ -9,17 +9,33 @@
 - Running code interactively in `irb`
 - Writing your first ruby script `.rb`
 - Symbols
-- Writing a class
 - Requiring code defined in some other file
-- `class`, getters and setters using `attr_accessor`
-- class methods - `def self.method_name`
-- Introduction to functional programming
+  - `require`
+  - `require_relative`
+  - `load`
+- Writing a class
+  - `class`,
+  - getters - `attr_reader`
+  - setters - `attr_writer` ->
+    - `attr_writer :name`
+```ruby
+  def name=(name)
+    @name = name
+  end
+```
+  - both - `attr_accessor`
+- `class Class`
+- Inheritance
+- class instance methods - `def self.method_name`
+  - Class variables - `@@`
+  - class instance variables - `class << self; attr_accessor :count; end`
+  - instance variables
+- Introduction to functional programming; `Enumerable` module
   - `map`
   - `reduce`
+  - `filter`
 - blocks, procs and `yield`
 - Monkey Patching
-- Class instance variables
-- Inheritance
 - Modules
   - Mixins
 - Proper monkey patching - How Rails monkey patches?

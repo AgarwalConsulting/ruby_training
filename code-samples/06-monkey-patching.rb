@@ -13,3 +13,5 @@ arr = [1, 2, 3]
 pp arr.double
 pp arr.to_s
 pp existing_arr.double
+
+pp arr.method(:double).source_location
