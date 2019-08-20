@@ -7,14 +7,7 @@
 * Introduction to Ruby
   * procs & blocks
     * `yield`
+  * Inheritance
   * Modules
-  * Concurrency
-    * Threads
-      * Green Threads
-    * Processes
-  * Memory Management
-    * CoW
-* Metaprogramming in Ruby
-  * `method_missing` & `respond_to?`
-  * Building your own DSL
+* Monkey Patching
 * Introduction to RoR

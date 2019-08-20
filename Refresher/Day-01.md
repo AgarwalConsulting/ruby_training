@@ -1,0 +1,25 @@
+# Day 1
+
+- `puts "Hello, World!"` in ruby
+- Naming conventions
+  - `ClassName` - Pascal case
+  - `method_name` - snake case
+  - `variable_or_field_name` - snake case
+  - `CONSTANT_NAME` - Screaming snake case
+- Running code interactively in `irb`
+- Writing your first ruby script `.rb`
+- Symbols
+- Writing a class
+- Requiring code defined in some other file
+- `class`, getters and setters using `attr_accessor`
+- class methods - `def self.method_name`
+- Introduction to functional programming
+  - `map`
+  - `reduce`
+- blocks, procs and `yield`
+- Monkey Patching
+- Class instance variables
+- Inheritance
+- Modules
+  - Mixins
+- Proper monkey patching - How Rails monkey patches?
