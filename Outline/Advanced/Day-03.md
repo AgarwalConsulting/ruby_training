@@ -39,7 +39,6 @@
 * [MRI memory allocation](https://www.engineyard.com/blog/mri-memory-allocation-a-primer-for-developers)
 * [What's the deal with Ruby GC and copy-on-write](https://medium.com/@rcdexta/whats-the-deal-with-ruby-gc-and-copy-on-write-f5eddef21485)
 * [CoW, GC, Ruby 2.0](http://patshaughnessy.net/2012/3/23/why-you-should-be-excited-about-garbage-collection-in-ruby-2-0)
-*
 * [How does ruby garbage collection work](https://stackify.com/how-does-ruby-garbage-collection-work-a-simple-tutorial/)
 * [MRI vs jRuby vs Rubinius](https://www.rubyguides.com/2016/10/mri-vs-jruby-vs-rubinius/)
 * [jRuby 9000](http://blog.jruby.org/2015/07/jruby_9000/)
