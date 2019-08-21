@@ -6,6 +6,8 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem "logging", "~> 2" # >= 2.0, <3
 gem 'require_all'
+gem 'pg'
+# gem 'pg', platform: :jruby, git: 'git://github.com/headius/jruby-pg.git', branch: :master
 
 group :development do
   gem 'pry'
