@@ -9,4 +9,8 @@
   - `rails new --help`
   - MVC Overview
   - `rails generate`
-- Sinatra
+    - `model`
+    - `scaffold`
+  - `rake -T`
+- Writing Domain Specific Languages
+- jRuby
