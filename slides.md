@@ -424,6 +424,8 @@ class: center, middle
 
 ---
 
+- Methods with a `=` suffix are for setters.
+
 - Methods with a `?` suffix will return a boolean.
 
 - Methods with a `!` suffix mean one of two things: either the method operates destructively in some fashion, or it will raise and exception instead of failing.
