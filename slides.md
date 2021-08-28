@@ -592,6 +592,12 @@ class: center, middle
 ## Working with files
 
 ---
+
+- `json`
+
+- `csv`
+
+---
 class: center, middle
 
 ## Ruby for scripting
