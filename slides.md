@@ -487,4 +487,4 @@ Code
 https://github.com/AgarwalConsulting/ruby_training
 
 Slides
-https://ruby-training.slides.agarwalconsulting.io/
+http://ruby.slides.agarwalconsulting.io/
