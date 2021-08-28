@@ -483,6 +483,138 @@ class: center, middle
 ---
 class: center, middle
 
+`require`, `require_all`, `require_relative`
+
+---
+class: center, middle
+
+### Working with third-party libraries (gems)
+
+---
+class: center, middle
+
+### Managing third-party dependencies (Bundler)
+
+---
+class: center, middle
+
+*Optional*: Writing your own gem
+
+---
+class: center, middle
+
+## Modules
+
+---
+class: center, middle
+
+### For Namespacing
+
+---
+class: center, middle
+
+### As Mixins
+
+---
+class: center, middle
+
+## Monkey Patching
+
+---
+class: center, middle
+
+### Operator Overloading
+
+---
+class: center, middle
+
+## Metaprogramming
+
+---
+class: center, middle
+
+`define_method`
+
+---
+class: center, middle
+
+`method_missing` & `respond_to?`
+
+---
+class: center, middle
+
+`class_eval` vs `instance_eval`
+
+---
+class: center, middle
+
+## Building & designing DSLs
+
+---
+class: center, middle
+
+## Introducing `Rake`
+
+---
+class: center, middle
+
+## Debugging
+
+---
+
+- Figuring type
+
+- Locating methods
+
+---
+class: center, middle
+
+`pry`
+
+---
+class: center, middle
+
+## Testing
+
+---
+class: center, middle
+
+`Test::Unit` vs `rspec`
+
+---
+class: center, middle
+
+## Error Handling
+
+---
+class: center, middle
+
+## Working with files
+
+---
+class: center, middle
+
+## Ruby for scripting
+
+---
+
+- Built-in constants
+
+- Working with environment
+
+---
+class: center, middle
+
+## Working with regular expressions
+
+---
+class: center, middle
+
+## Working with `Date` and `Time`
+
+---
+class: center, middle
+
 Code
 https://github.com/AgarwalConsulting/ruby_training
 
