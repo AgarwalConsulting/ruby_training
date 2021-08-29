@@ -525,6 +525,11 @@ class: center, middle
 ---
 class: center, middle
 
+[`Enumerable`](https://ruby-doc.org/core-3.0.2/Enumerable.html)
+
+---
+class: center, middle
+
 [`Comparable`](https://ruby-doc.org/core-3.0.2/Comparable.html)
 
 ---
