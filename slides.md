@@ -318,6 +318,11 @@ class: center, middle
 ---
 class: center, middle
 
+### Sets
+
+---
+class: center, middle
+
 ### Class
 
 ---
@@ -516,6 +521,11 @@ class: center, middle
 class: center, middle
 
 ### As Mixins
+
+---
+class: center, middle
+
+[`Comparable`](https://ruby-doc.org/core-3.0.2/Comparable.html)
 
 ---
 class: center, middle
