@@ -266,7 +266,7 @@ class: center, middle
 
 - Methods and variables are `snake_case`.
 
-- Constants are `SCREAMING_SNAKE_CASE`.
+- Constants are `SCREAMING_SNAKE_CASE` or `Upper_Snake_Case`.
 
 ---
 class: center, middle
