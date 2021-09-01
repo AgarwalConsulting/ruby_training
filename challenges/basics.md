@@ -45,3 +45,7 @@ Test with "世界" as input.
 - Create a function which can return the products given a number
   - Think about the return value in case the given number is prime?
 - DRY-up your logic
+
+## 5. Adder
+
+Define an `Adder` class; which has methods like `add` & `result`... Adder should maintain the running total with each call to `add`, and return the total when the `result` is called.
