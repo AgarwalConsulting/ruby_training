@@ -14,6 +14,14 @@
 
 # ---
 
-numbers = 1..100
+# numbers = 1..100
 
-pp numbers.filter { |el| el % 2 == 0 }
+# pp numbers.filter { |el| el % 2 == 0 }
+
+# ---
+
+arr = [1, 2, 3, 5, 7]
+
+pp arr.reduce(0) {|memo, el| memo + el * 2 }
+
+pp arr.reduce({}) {|memo, el| memo[el] = el * 2; memo }
