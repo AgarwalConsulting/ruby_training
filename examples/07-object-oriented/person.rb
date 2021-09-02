@@ -3,8 +3,14 @@ require 'pry' # #include, import
 class Person
   attr_accessor :age
   # attr_accessor :first_name, :last_name
+  @@count = 0
+
+  def Person.count
+    @@count
+  end
 
   def initialize(name, age)
+    @@count = (@@count || 0) + 1
     self.name = name
     self.age = age
   end
