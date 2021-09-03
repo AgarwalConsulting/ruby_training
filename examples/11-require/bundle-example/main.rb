@@ -11,10 +11,16 @@ require 'pry'
 
 f = File.open("./data.json")
 
-contents = f.read
+f.each_line do |line|
+  pp line
+end
 
-data = JSON.parse(contents)
+f.close()
 
-pp data
+# contents = f.read
+
+# data = JSON.parse(contents)
+
+# pp data
 
 # binding.pry

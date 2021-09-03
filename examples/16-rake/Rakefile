@@ -1,0 +1,8 @@
+task :hello do
+  puts "My first rake task"
+end
+
+task :task1 do
+  puts ENV["TASK_VAR"]
+  # puts "Running task1..."
+end
