@@ -591,16 +591,6 @@ class: center, middle
 ---
 class: center, middle
 
-## Testing
-
----
-class: center, middle
-
-`Test::Unit` vs `rspec`
-
----
-class: center, middle
-
 ## Error Handling
 
 ---
@@ -617,7 +607,27 @@ class: center, middle
 ---
 class: center, middle
 
+## Testing
+
+---
+class: center, middle
+
+`Test::Unit` vs `rspec`
+
+---
+class: center, middle
+
 ## Ruby for scripting
+
+---
+class: center, middle
+
+`system` vs `exec`
+
+---
+class: center, middle
+
+backticks vs `%x()`
 
 ---
 
@@ -634,6 +644,46 @@ class: center, middle
 class: center, middle
 
 ## Working with `Date` and `Time`
+
+---
+class: center, middle
+
+## Building an http server with Ruby std lib
+
+---
+class: center, middle
+
+## Consuming APIs
+
+---
+class: center, middle
+
+### net/HTTP
+
+---
+class: center, middle
+
+### HTTParty
+
+---
+class: center, middle
+
+## Writing your own sorting algorithms
+
+---
+class: center, middle
+
+### Bubble sort
+
+---
+class: center, middle
+
+### Quick sort
+
+---
+class: center, middle
+
+### Merge sort
 
 ---
 class: center, middle
