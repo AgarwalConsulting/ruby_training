@@ -630,6 +630,16 @@ class: center, middle
 backticks vs `%x()`
 
 ---
+class: center, middle
+
+[`open3`](https://ruby-doc.org/stdlib-3.0.2/libdoc/open3/rdoc/Open3.html#method-c-popen3)
+
+---
+class: center, middle
+
+![Scripting Flowchart](assets/images/flowchart-scripting.png)
+
+---
 
 - Built-in constants
 
