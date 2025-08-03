@@ -1,2 +1,4 @@
 posts/
 exercises/koans/.path_progress
+live-examples/
+examples/20-embedded/00-mruby/hello.mrb
