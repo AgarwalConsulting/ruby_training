@@ -10,7 +10,7 @@ Build a minimal Linux system using Buildroot that includes the full Ruby interpr
    ```bash
    git clone https://github.com/buildroot/buildroot.git
    cd buildroot
-   make qemu_arm_defconfig
+   make qemu_arm_versatile_defconfig # make list-defconfigs (Select one from here)
    ```
 
 2. **Enable Ruby in Menuconfig:**
