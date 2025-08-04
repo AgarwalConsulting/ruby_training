@@ -3,3 +3,4 @@ exercises/koans/.path_progress
 live-examples/
 examples/20-embedded/00-mruby/hello.mrb
 examples/20-embedded/01-build/0-buildroot/output
+examples/20-embedded/01-build/1-yocto/poky/
