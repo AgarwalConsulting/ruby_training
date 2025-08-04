@@ -22,12 +22,13 @@ Build a minimal Linux system using Buildroot that includes the full Ruby interpr
    * `Target packages` → `Interpreter languages and scripting` → `ruby` → \[\*]
    * (Optional) Add a Ruby script to run at boot:
 
-     * `System configuration` → `Custom scripts to run at bootup` → `/etc/init.d/S99ruby_hello`
+     * `System configuration` → `Custom scripts to run after creating filesystem images` → `target/board/qemu/arm/post-build.sh`
 
 3. **Add custom Ruby script:**
    Create a new file in `board/qemu/arm/ruby_hello.rb`:
 
    ```ruby
+   #!/usr/env ruby
    puts "Hello from Ruby on Buildroot!"
    ```
 

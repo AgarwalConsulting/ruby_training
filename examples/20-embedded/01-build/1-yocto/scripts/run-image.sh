@@ -3,6 +3,6 @@
 mkdir -p ./yocto-ruby
 
 docker run -it --rm \
-  -v "$PWD":/work \
+  -v "$PWD":/home/yocto/work/ \
   yocto-ruby \
   bash
