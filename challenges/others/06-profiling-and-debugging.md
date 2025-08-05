@@ -1,5 +1,19 @@
 # Profiling and debugging exercises
 
+---
+
+Write a Ruby script that:
+
+1. Allocates lots of objects (e.g., strings or arrays).
+2. Profiles with:
+
+   * `memory_profiler` to spot retained objects.
+   * `stackprof` in `:object` mode.
+   * `ruby-prof` in `ALLOCATIONS` mode.
+3. Fixes the leak by nullifying references and re-running the tools.
+
+---
+
 ## 🧪 **Exercise: Profiling and Fixing a Memory-Intensive Ruby Script**
 
 ### 🧵 Step 1: The Problem Script (`leaky.rb`)
