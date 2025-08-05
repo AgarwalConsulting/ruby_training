@@ -1,16 +1,34 @@
-a = 10 # One a variable declared globally
+# def greeting(s)
+#   puts s.object_id
 
-def update(a)
-  a += 1
-  # a = # Another a declared within update
+#   #
+#   # s = "Hello," + s
 
-  puts a
-end
+#   s[0..5] = "Hello"
+#   # s[0] = 'J'
+#   # s.upcase!
+#   # s.upcase
+#   puts s.object_id # ?
+# end
 
-puts a # 10
+s = "World"
 
-puts "-----------------"
-update a # 11
-puts "-----------------"
+puts "S: #{s.object_id}"
 
-puts a # 10
+t = "World"
+
+puts "T: #{t.object_id}" # Different ID
+
+s = "World"
+
+puts "S: #{s.object_id}"
+
+# t = s # Pass by reference
+
+# puts "T: ", t.object_id # ?
+
+# greeting(s)
+
+# # t.upcase!
+
+# puts s # ?
