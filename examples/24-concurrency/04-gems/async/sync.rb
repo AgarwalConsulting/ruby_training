@@ -2,15 +2,20 @@ require 'async/http/internet'
 
 def fetch(url)
 	Sync do
+		puts "Request..."
 		internet = Async::HTTP::Internet.new
-		return internet.get(url).read
+		res = internet.get(url).read
+		puts "Done"
+		res
 	end
 end
 
 # At the level of your program, this method will create an event loop:
-fetch("https://algogrit.com")
+puts fetch("https://algogrit.com")
 
-Sync do
-	# The event loop already exists, and will be reused:
-	# fetch(...)
-end
+puts "Some other long processing..."
+
+# Sync do
+# 	# The event loop already exists, and will be reused:
+# 	# fetch(...)
+# end
