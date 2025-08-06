@@ -20,4 +20,4 @@ threads = 10.times.map do
 end
 
 threads.each(&:join)
-p counter, data
+p counter, data.count, data
