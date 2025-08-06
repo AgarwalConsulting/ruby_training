@@ -16,6 +16,8 @@
 
 # Ensures a class has only one instance and provides a global point of access.
 
+require 'singleton'
+
 class Logger
   include Singleton
 
@@ -24,4 +26,9 @@ class Logger
   end
 end
 
+# Logger.new
+
 Logger.instance.log("Hello")
+
+p Logger.instance.object_id
+p Logger.instance.object_id

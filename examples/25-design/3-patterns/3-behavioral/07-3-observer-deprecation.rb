@@ -7,7 +7,7 @@ class ObservableSubject
     @observers << obs
   end
 
-  def notify(data)
-    @observers.each { |o| o.update(data) }
+  def update(data)
+    @observers.each { |o| o.notify(data) }
   end
 end
