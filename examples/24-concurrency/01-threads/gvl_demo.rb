@@ -1,5 +1,7 @@
 def busy
-  500_000_000.times { Math.sqrt(12345) }
+  500_000_000.times do
+    Math.sqrt(12345)
+  end
 end
 
 threads = 4.times.map do |i|
