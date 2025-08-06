@@ -171,8 +171,6 @@ Simulate:
 * Multiple Ractors emitting sensor data (temperature, pressure, etc.)
 * A `collector` Ractor gathering and printing them with timestamps
 
-Would you like this written out in full?
-
 ---
 
 ## 🧠 Bonus Challenges
