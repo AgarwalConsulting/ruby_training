@@ -15,4 +15,10 @@ t2 = Thread.new do
   end
 end
 
+t3 = Thread.new do
+  loop {}
+end
+
 [t1, t2].each(&:join) # DEADLOCK
+
+puts "Exiting Main!"

@@ -10,7 +10,9 @@ f2 = Fiber.new do
   puts "Fiber 2 - Step 2"
 end
 
-f1.resume
-f2.resume
-f1.resume
-f2.resume
+# sleep 10
+
+# f1.resume
+# f2.resume
+# f1.resume
+# f2.resume

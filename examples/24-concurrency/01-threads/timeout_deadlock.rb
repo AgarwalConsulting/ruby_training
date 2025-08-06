@@ -8,7 +8,7 @@ Thread.new do
     Timeout.timeout(2) do
       mutex.synchronize do
         puts "[Thread] Acquired lock, doing long work"
-        sleep 5   # Simulate long work
+        sleep 10000   # Simulate long work
         puts "[Thread] Done"
       end
     end

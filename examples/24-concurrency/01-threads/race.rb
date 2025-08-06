@@ -11,10 +11,13 @@ end
 threads = 10.times.map do
   Thread.new do
     1000.times do
-      mutex.synchronize do # One one threads
+      # mutex.lock()
+      # mutex.synchronize do # One one threads
         data = increment(counter, data)
         counter = data.count
-      end
+      # end
+      # mutex.unlock()
+      # t.kill
     end
   end
 end
