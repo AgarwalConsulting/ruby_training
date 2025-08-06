@@ -7,7 +7,8 @@ module EchoClient
 
   def receive_data(data)
     puts "Got reply: #{data}"
-    close_connection
+    send_data "Hello, 1"
+    # close_connection
     EM.stop
   end
 end
