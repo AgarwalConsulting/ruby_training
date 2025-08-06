@@ -1,4 +1,4 @@
-require './message_pb'
+require './sensor_reading_pb'
 
 reading = SensorReading.new(
   sensor_id: "temp-001",

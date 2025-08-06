@@ -6,6 +6,12 @@ commands = {
   add: ->(x, y) { x + y }
 }
 
+# class CommandSet
+#   commands.each do |name, block|
+#     define_method(name, &block)
+#   end
+# end
+
 CommandSet.class_eval do
   commands.each do |name, block|
     define_method(name, &block)

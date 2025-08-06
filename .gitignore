@@ -7,3 +7,4 @@ examples/20-embedded/01-build/1-yocto/poky/
 examples/20-embedded/01-build/0-buildroot/ruby-arm-rootfs.img
 examples/20-embedded/01-build/0-buildroot/ruby-arm-zImage
 scratchpad.rb
+*_pb.rb

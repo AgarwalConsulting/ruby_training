@@ -33,6 +33,8 @@ net = Network.new do
   device "router" do
     ip "10.0.0.1"
     role "gateway"
+    # subnet ""
+    # self.class.define_method()
   end
 
   device "switch" do
