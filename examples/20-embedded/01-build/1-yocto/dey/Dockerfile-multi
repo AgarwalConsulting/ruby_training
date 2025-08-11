@@ -4,7 +4,7 @@
 FROM ubuntu:22.04 AS builder
 
 ARG DEY_BRANCH="scarthgap"        # Digi Yocto branch/tag
-ARG MACHINE="qemuarm64"           # Change to Digi board or keep qemu for testing
+ARG MACHINE="ccimx8mmqemu"        # Refer README.md
 ARG JOBS=8
 
 # --- Install Yocto build dependencies ---

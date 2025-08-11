@@ -4,7 +4,7 @@
 FROM ubuntu:22.04
 
 ARG DEY_BRANCH="scarthgap"        # Change to desired DEY branch/tag
-ARG MACHINE="ccimx8x-sbc-pro"     # Change to your Digi board or qemuarm64
+ARG MACHINE="ccimx8mmqemu"        # Refer README.md
 ARG JOBS=8
 
 # -----------------------------------------------------
